@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>切半</title>
+    <script type="module" crossorigin src="./assets/index-CFFZPtXg.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-hPnhKaoe.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div id="prompt">加载中…</div>
+        <div id="tags">
+          <div id="counter"></div>
+          <div id="mode-tag"></div>
+        </div>
+      </header>
+      <main id="stage">
+        <canvas id="map"></canvas>
+        <div id="summary" hidden></div>
+      </main>
+      <footer>
+        <div id="status"></div>
+        <div id="bar">
+          <div id="source"></div>
+          <button id="about-button" type="button"></button>
+          <button id="action" type="button" disabled>确认</button>
+        </div>
+      </footer>
+    </div>
+    <div id="about" hidden>
+      <div class="about-sheet" role="dialog" aria-modal="true">
+        <div class="about-head">
+          <div class="about-title"></div>
+          <button class="about-close" type="button"></button>
+        </div>
+        <div class="about-body"></div>
+      </div>
+    </div>
+  </body>
+</html>

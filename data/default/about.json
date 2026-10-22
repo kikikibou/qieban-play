@@ -1,0 +1,148 @@
+{
+  "pov": "default",
+  "boundary": "国界数据：Natural Earth 10m v5.1.2 · ne_10m_admin_0_map_subunits",
+  "datasets": [
+    {
+      "metric": "population",
+      "metric_name": "人口",
+      "dataset": "WorldPop 2020 1km (unconstrained, aggregated, UN-adjusted)",
+      "year": 2020,
+      "license": "CC BY 4.0",
+      "url": "https://hub.worldpop.org/geodata/listing?id=75",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "国家级计数栅格，按格求和",
+      "in_game": true
+    },
+    {
+      "metric": "area",
+      "metric_name": "面积",
+      "dataset": "Natural Earth 10m Admin 0 – Map Subunits v5.1.2",
+      "year": 2022,
+      "license": "Public domain",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-details/",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "格子被陆地覆盖的比例 × 格子面积",
+      "in_game": true
+    },
+    {
+      "metric": "coastline",
+      "metric_name": "海岸线长度",
+      "dataset": "Natural Earth 10m Admin 0 – Map Subunits v5.1.2（按本游戏地图轮廓计算）",
+      "year": 2022,
+      "license": "Public domain",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-details/",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "按地图轮廓的海岸线长度",
+      "in_game": true
+    },
+    {
+      "metric": "age65",
+      "metric_name": "65 岁以上人口",
+      "dataset": "WorldPop 2020 1km Age and Sex Structures (unconstrained)",
+      "year": 2020,
+      "license": "CC BY 4.0",
+      "url": "https://dx.doi.org/10.5258/SOTON/WP00646",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "国家级计数栅格，按格求和",
+      "in_game": true
+    },
+    {
+      "metric": "cattle",
+      "metric_name": "牛",
+      "dataset": "FAO Gridded Livestock of the World 4 (GLW 4) – Cattle, 5′, dasymetric",
+      "year": 2015,
+      "license": "CC0 1.0",
+      "url": "https://doi.org/10.7910/DVN/LHBICE",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "全球计数栅格，源像元均匀摊到格子",
+      "in_game": true
+    },
+    {
+      "metric": "rice",
+      "metric_name": "水稻产量",
+      "dataset": "IFPRI SPAM 2020 V2r2 – Rice production, 5′",
+      "year": 2020,
+      "license": "CC BY 4.0 (IFPRI Datasets Terms of Use)",
+      "url": "https://doi.org/10.7910/DVN/SWPENT",
+      "excludes": {
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "全球计数栅格，源像元均匀摊到格子",
+      "in_game": true,
+      "notice": "This data was provided by the International Food Policy Research Institute (IFPRI). IFPRI bears no responsibility for the analyses or interpretations of the data presented here."
+    },
+    {
+      "metric": "wheat",
+      "metric_name": "小麦产量",
+      "dataset": "IFPRI SPAM 2020 V2r2 – Wheat production, 5′",
+      "year": 2020,
+      "license": "CC BY 4.0 (IFPRI Datasets Terms of Use)",
+      "url": "https://doi.org/10.7910/DVN/SWPENT",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "全球计数栅格，源像元均匀摊到格子",
+      "in_game": true,
+      "notice": "This data was provided by the International Food Policy Research Institute (IFPRI). IFPRI bears no responsibility for the analyses or interpretations of the data presented here."
+    },
+    {
+      "metric": "forest",
+      "metric_name": "森林面积（树木覆盖）",
+      "dataset": "Copernicus Global Land Service LC100 Collection 3 (epoch 2019) – Tree cover fraction",
+      "year": 2019,
+      "license": "CC BY 4.0",
+      "url": "https://doi.org/10.5281/zenodo.3939050",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "密度场 × 陆地面积",
+      "in_game": true
+    },
+    {
+      "metric": "precipitation",
+      "metric_name": "降水总量",
+      "dataset": "CHELSA V2.1 bio12 – Annual precipitation (1981–2010 climatology)",
+      "year": "1981–2010",
+      "license": "CC0 1.0",
+      "url": "https://doi.org/10.16904/envidat.228",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "密度场 × 陆地面积",
+      "in_game": true,
+      "caveat": "降水总量是 CHELSA 的栅格估计：按地形把降水插值到每个格子，计入山地增雨，所以比按气象站平均算的官方数字偏高（日本约高 24%，中国约高 17%）。"
+    },
+    {
+      "metric": "earthquakes",
+      "metric_name": "地震次数（M≥4.5）",
+      "dataset": "USGS ComCat earthquakes M ≥ 4.5 (1970 – 2026-10)",
+      "year": "1970–2026",
+      "license": "Public domain (USGS)",
+      "url": "https://earthquake.usgs.gov/data/comcat/",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      },
+      "method": "点要素计数（海上 200 km 内落到最近陆地格）",
+      "in_game": true
+    }
+  ]
+}

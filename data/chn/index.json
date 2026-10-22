@@ -1,0 +1,66 @@
+{
+  "pov": "chn",
+  "entities": [
+    {
+      "id": "CHN",
+      "name": "中国",
+      "note": "",
+      "metrics": {
+        "population": "CHN.population.json",
+        "area": "CHN.area.json",
+        "coastline": "CHN.coastline.json",
+        "age65": "CHN.age65.json",
+        "cattle": "CHN.cattle.json",
+        "rice": "CHN.rice.json",
+        "wheat": "CHN.wheat.json",
+        "forest": "CHN.forest.json",
+        "precipitation": "CHN.precipitation.json",
+        "earthquakes": "CHN.earthquakes.json"
+      },
+      "extra": {}
+    },
+    {
+      "id": "GBR",
+      "name": "英国",
+      "note": "不含罗科尔岛",
+      "metrics": {
+        "population": "GBR.population.json",
+        "area": "GBR.area.json",
+        "coastline": "GBR.coastline.json",
+        "age65": "GBR.age65.json",
+        "cattle": "GBR.cattle.json",
+        "wheat": "GBR.wheat.json",
+        "forest": "GBR.forest.json",
+        "precipitation": "GBR.precipitation.json"
+      },
+      "extra": {
+        "rice": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "GBR.earthquakes.json",
+          "reason": "N = 13 < 200"
+        }
+      }
+    },
+    {
+      "id": "JPN",
+      "name": "日本",
+      "note": "不含奄美群岛、冲绳县及小笠原诸岛",
+      "metrics": {
+        "population": "JPN.population.json",
+        "area": "JPN.area.json",
+        "coastline": "JPN.coastline.json",
+        "age65": "JPN.age65.json",
+        "cattle": "JPN.cattle.json",
+        "rice": "JPN.rice.json",
+        "wheat": "JPN.wheat.json",
+        "forest": "JPN.forest.json",
+        "precipitation": "JPN.precipitation.json",
+        "earthquakes": "JPN.earthquakes.json"
+      },
+      "extra": {}
+    }
+  ]
+}

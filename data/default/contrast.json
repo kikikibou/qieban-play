@@ -1,0 +1,458 @@
+{
+ "pov": "default",
+ "entities": {
+  "CHN": {
+   "name": "中国",
+   "metrics": {
+    "population": {
+     "name": "人口",
+     "x_km": 1067.4,
+     "y_km": -448.0
+    },
+    "area": {
+     "name": "面积",
+     "x_km": 101.3,
+     "y_km": -9.3
+    },
+    "coastline": {
+     "name": "海岸线长度",
+     "x_km": 1487.0,
+     "y_km": -1049.2
+    },
+    "age65": {
+     "name": "65 岁以上人口",
+     "x_km": 1079.7,
+     "y_km": -446.8
+    },
+    "cattle": {
+     "name": "牛",
+     "x_km": 669.5,
+     "y_km": -204.0
+    },
+    "rice": {
+     "name": "水稻产量",
+     "x_km": 1155.7,
+     "y_km": -661.2
+    },
+    "wheat": {
+     "name": "小麦产量",
+     "x_km": 1086.0,
+     "y_km": -172.7
+    },
+    "forest": {
+     "name": "森林面积（树木覆盖）",
+     "x_km": 770.3,
+     "y_km": -748.5
+    },
+    "precipitation": {
+     "name": "降水总量",
+     "x_km": 596.4,
+     "y_km": -634.9
+    },
+    "earthquakes": {
+     "name": "地震次数（M≥4.5）",
+     "x_km": -969.2,
+     "y_km": -164.2
+    }
+   },
+   "distance": {
+    "population": {
+     "area": 20.06,
+     "coastline": 13.98,
+     "age65": 0.25,
+     "cattle": 8.26,
+     "rice": 4.96,
+     "wheat": 6.4,
+     "forest": 6.99,
+     "precipitation": 9.78,
+     "earthquakes": 42.28
+    },
+    "area": {
+     "population": 20.06,
+     "coastline": 28.77,
+     "age65": 20.31,
+     "cattle": 11.79,
+     "rice": 21.89,
+     "wheat": 20.44,
+     "forest": 17.19,
+     "precipitation": 14.55,
+     "earthquakes": 22.22
+    },
+    "coastline": {
+     "population": 13.98,
+     "area": 28.77,
+     "age65": 14.01,
+     "cattle": 19.66,
+     "rice": 9.02,
+     "wheat": 20.39,
+     "forest": 14.88,
+     "precipitation": 18.49,
+     "earthquakes": 50.99
+    },
+    "age65": {
+     "population": 0.25,
+     "area": 20.31,
+     "coastline": 14.01,
+     "cattle": 8.51,
+     "rice": 4.99,
+     "wheat": 6.38,
+     "forest": 7.02,
+     "precipitation": 10.03,
+     "earthquakes": 42.53
+    },
+    "cattle": {
+     "population": 8.26,
+     "area": 11.79,
+     "coastline": 19.66,
+     "age65": 8.51,
+     "rice": 10.64,
+     "wheat": 8.65,
+     "forest": 12.67,
+     "precipitation": 10.02,
+     "earthquakes": 34.02
+    },
+    "rice": {
+     "population": 4.96,
+     "area": 21.89,
+     "coastline": 9.02,
+     "age65": 4.99,
+     "cattle": 10.64,
+     "wheat": 11.36,
+     "forest": 8.0,
+     "precipitation": 11.61,
+     "earthquakes": 44.11
+    },
+    "wheat": {
+     "population": 6.4,
+     "area": 20.44,
+     "coastline": 20.39,
+     "age65": 6.38,
+     "cattle": 8.65,
+     "rice": 11.36,
+     "forest": 13.39,
+     "precipitation": 10.75,
+     "earthquakes": 42.66
+    },
+    "forest": {
+     "population": 6.99,
+     "area": 17.19,
+     "coastline": 14.88,
+     "age65": 7.02,
+     "cattle": 12.67,
+     "rice": 8.0,
+     "wheat": 13.39,
+     "precipitation": 3.61,
+     "earthquakes": 36.11
+    },
+    "precipitation": {
+     "population": 9.78,
+     "area": 14.55,
+     "coastline": 18.49,
+     "age65": 10.03,
+     "cattle": 10.02,
+     "rice": 11.61,
+     "wheat": 10.75,
+     "forest": 3.61,
+     "earthquakes": 32.5
+    },
+    "earthquakes": {
+     "population": 42.28,
+     "area": 22.22,
+     "coastline": 50.99,
+     "age65": 42.53,
+     "cattle": 34.02,
+     "rice": 44.11,
+     "wheat": 42.66,
+     "forest": 36.11,
+     "precipitation": 32.5
+    }
+   }
+  },
+  "GBR": {
+   "name": "英国",
+   "metrics": {
+    "population": {
+     "name": "人口",
+     "x_km": 85.2,
+     "y_km": -178.9
+    },
+    "area": {
+     "name": "面积",
+     "x_km": -3.2,
+     "y_km": -35.2
+    },
+    "coastline": {
+     "name": "海岸线长度",
+     "x_km": -105.9,
+     "y_km": 220.6
+    },
+    "age65": {
+     "name": "65 岁以上人口",
+     "x_km": 85.2,
+     "y_km": -178.8
+    },
+    "cattle": {
+     "name": "牛",
+     "x_km": -19.0,
+     "y_km": -75.0
+    },
+    "wheat": {
+     "name": "小麦产量",
+     "x_km": 120.0,
+     "y_km": -160.4
+    },
+    "forest": {
+     "name": "森林面积（树木覆盖）",
+     "x_km": -14.7,
+     "y_km": -37.8
+    },
+    "precipitation": {
+     "name": "降水总量",
+     "x_km": -55.1,
+     "y_km": 73.1
+    }
+   },
+   "distance": {
+    "population": {
+     "area": 13.42,
+     "coastline": 32.95,
+     "age65": 0.01,
+     "cattle": 15.83,
+     "wheat": 5.29,
+     "forest": 15.18,
+     "precipitation": 21.32
+    },
+    "area": {
+     "population": 13.42,
+     "coastline": 21.1,
+     "age65": 13.43,
+     "cattle": 3.28,
+     "wheat": 18.71,
+     "forest": 1.76,
+     "precipitation": 8.93
+    },
+    "coastline": {
+     "population": 32.95,
+     "area": 21.1,
+     "age65": 32.95,
+     "cattle": 24.38,
+     "wheat": 34.32,
+     "forest": 21.31,
+     "precipitation": 12.17
+    },
+    "age65": {
+     "population": 0.01,
+     "area": 13.43,
+     "coastline": 32.95,
+     "cattle": 15.83,
+     "wheat": 5.29,
+     "forest": 15.18,
+     "precipitation": 21.32
+    },
+    "cattle": {
+     "population": 15.83,
+     "area": 3.28,
+     "coastline": 24.38,
+     "age65": 15.83,
+     "wheat": 21.12,
+     "forest": 3.07,
+     "precipitation": 12.21
+    },
+    "wheat": {
+     "population": 5.29,
+     "area": 18.71,
+     "coastline": 34.32,
+     "age65": 5.29,
+     "cattle": 21.12,
+     "forest": 20.47,
+     "precipitation": 26.61
+    },
+    "forest": {
+     "population": 15.18,
+     "area": 1.76,
+     "coastline": 21.31,
+     "age65": 15.18,
+     "cattle": 3.07,
+     "wheat": 20.47,
+     "precipitation": 9.14
+    },
+    "precipitation": {
+     "population": 21.32,
+     "area": 8.93,
+     "coastline": 12.17,
+     "age65": 21.32,
+     "cattle": 12.21,
+     "wheat": 26.61,
+     "forest": 9.14
+    }
+   }
+  },
+  "JPN": {
+   "name": "日本",
+   "metrics": {
+    "population": {
+     "name": "人口",
+     "x_km": 62.2,
+     "y_km": -228.0
+    },
+    "area": {
+     "name": "面积",
+     "x_km": 104.4,
+     "y_km": -131.7
+    },
+    "coastline": {
+     "name": "海岸线长度",
+     "x_km": -199.7,
+     "y_km": -302.8
+    },
+    "age65": {
+     "name": "65 岁以上人口",
+     "x_km": 33.6,
+     "y_km": -230.6
+    },
+    "cattle": {
+     "name": "牛",
+     "x_km": 207.0,
+     "y_km": -79.9
+    },
+    "rice": {
+     "name": "水稻产量",
+     "x_km": 129.7,
+     "y_km": -121.0
+    },
+    "wheat": {
+     "name": "小麦产量",
+     "x_km": 328.9,
+     "y_km": 604.6
+    },
+    "forest": {
+     "name": "森林面积（树木覆盖）",
+     "x_km": 79.3,
+     "y_km": -126.1
+    },
+    "precipitation": {
+     "name": "降水总量",
+     "x_km": 35.9,
+     "y_km": -159.0
+    },
+    "earthquakes": {
+     "name": "地震次数（M≥4.5）",
+     "x_km": 287.1,
+     "y_km": -29.4
+    }
+   },
+   "distance": {
+    "population": {
+     "area": 5.67,
+     "coastline": 17.33,
+     "age65": 1.89,
+     "cattle": 9.58,
+     "rice": 6.3,
+     "wheat": 48.99,
+     "forest": 6.0,
+     "precipitation": 4.06,
+     "earthquakes": 14.88
+    },
+    "area": {
+     "population": 5.67,
+     "coastline": 20.12,
+     "age65": 5.82,
+     "cattle": 6.78,
+     "rice": 1.67,
+     "wheat": 43.32,
+     "forest": 1.66,
+     "precipitation": 4.54,
+     "earthquakes": 12.09
+    },
+    "coastline": {
+     "population": 17.33,
+     "area": 20.12,
+     "age65": 15.43,
+     "cattle": 26.91,
+     "rice": 21.79,
+     "wheat": 53.39,
+     "forest": 18.46,
+     "precipitation": 15.59,
+     "earthquakes": 32.21
+    },
+    "age65": {
+     "population": 1.89,
+     "area": 5.82,
+     "coastline": 15.43,
+     "cattle": 11.47,
+     "rice": 6.45,
+     "wheat": 49.14,
+     "forest": 6.15,
+     "precipitation": 4.21,
+     "earthquakes": 16.77
+    },
+    "cattle": {
+     "population": 9.58,
+     "area": 6.78,
+     "coastline": 26.91,
+     "age65": 11.47,
+     "rice": 5.12,
+     "wheat": 40.27,
+     "forest": 8.45,
+     "precipitation": 11.32,
+     "earthquakes": 5.3
+    },
+    "rice": {
+     "population": 6.3,
+     "area": 1.67,
+     "coastline": 21.79,
+     "age65": 6.45,
+     "cattle": 5.12,
+     "wheat": 42.69,
+     "forest": 3.33,
+     "precipitation": 6.2,
+     "earthquakes": 10.42
+    },
+    "wheat": {
+     "population": 48.99,
+     "area": 43.32,
+     "coastline": 53.39,
+     "age65": 49.14,
+     "cattle": 40.27,
+     "rice": 42.69,
+     "forest": 43.0,
+     "precipitation": 44.93,
+     "earthquakes": 37.3
+    },
+    "forest": {
+     "population": 6.0,
+     "area": 1.66,
+     "coastline": 18.46,
+     "age65": 6.15,
+     "cattle": 8.45,
+     "rice": 3.33,
+     "wheat": 43.0,
+     "precipitation": 2.88,
+     "earthquakes": 13.75
+    },
+    "precipitation": {
+     "population": 4.06,
+     "area": 4.54,
+     "coastline": 15.59,
+     "age65": 4.21,
+     "cattle": 11.32,
+     "rice": 6.2,
+     "wheat": 44.93,
+     "forest": 2.88,
+     "earthquakes": 16.62
+    },
+    "earthquakes": {
+     "population": 14.88,
+     "area": 12.09,
+     "coastline": 32.21,
+     "age65": 16.77,
+     "cattle": 5.3,
+     "rice": 10.42,
+     "wheat": 37.3,
+     "forest": 13.75,
+     "precipitation": 16.62
+    }
+   }
+  }
+ }
+}

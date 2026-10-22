@@ -4,38 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>切半</title>
-    <script type="module" crossorigin src="./assets/index-CFFZPtXg.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-hPnhKaoe.css">
+    <script type="module" crossorigin src="./assets/index-qs1hwSxA.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-6aP6BZOh.css">
   </head>
   <body>
-    <div id="app">
-      <header>
-        <div id="prompt">加载中…</div>
-        <div id="tags">
-          <div id="counter"></div>
-          <div id="mode-tag"></div>
-        </div>
-      </header>
-      <main id="stage">
-        <canvas id="map"></canvas>
-        <div id="summary" hidden></div>
-      </main>
-      <footer>
-        <div id="status"></div>
-        <div id="bar">
-          <div id="source"></div>
+    <!-- 固定尺寸的画板（桌面 1280×720 / 手机 375×812），整体等比缩放进窗口；位置和尺寸由 theme.ts 设定（D041） -->
+    <div id="viewport">
+      <div id="board">
+        <div id="graticule"></div>
+        <header id="header">
           <button id="about-button" type="button"></button>
-          <button id="action" type="button" disabled>确认</button>
-        </div>
-      </footer>
-    </div>
-    <div id="about" hidden>
-      <div class="about-sheet" role="dialog" aria-modal="true">
-        <div class="about-head">
-          <div class="about-title"></div>
-          <button class="about-close" type="button"></button>
-        </div>
-        <div class="about-body"></div>
+          <div id="counter"></div>
+        </header>
+        <div id="progress"></div>
+        <div id="mode-chip"><span class="icon"></span><span class="label"></span></div>
+        <div id="plate"></div>
+        <div id="plate-corner"></div>
+        <div id="ribbon"></div>
+        <div id="hint"><span class="icon"></span><span class="text"><span class="main"></span><span class="sub"></span></span></div>
+        <div id="deviation"></div>
+        <div id="answer"></div>
+        <div id="map-card"><canvas id="map"></canvas></div>
+        <div id="source"></div>
+        <button id="action" type="button" disabled></button>
+        <canvas id="ui"></canvas>
+        <!-- 总分页、数据说明页：画板内整页，内容由 main.ts 按 theme.ts 生成（D044） -->
+        <div id="summary" hidden></div>
+        <div id="about" hidden></div>
       </div>
     </div>
   </body>

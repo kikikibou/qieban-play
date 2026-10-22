@@ -40,7 +40,7 @@
         },
         "earthquakes": {
           "file": "GBR.earthquakes.json",
-          "reason": "N = 13 < 200"
+          "reason": "N = 9 < 200"
         }
       }
     },

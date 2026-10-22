@@ -51,8 +51,8 @@
     },
     "earthquakes": {
      "name": "地震次数（M≥4.5）",
-     "x_km": 60.5,
-     "y_km": -794.9
+     "x_km": -235.3,
+     "y_km": -612.4
     }
    },
    "distance": {
@@ -65,7 +65,7 @@
      "wheat": 6.56,
      "forest": 7.59,
      "precipitation": 10.69,
-     "earthquakes": 21.16
+     "earthquakes": 27.3
     },
     "area": {
      "population": 20.47,
@@ -76,7 +76,7 @@
      "wheat": 20.62,
      "forest": 17.6,
      "precipitation": 15.24,
-     "earthquakes": 18.21
+     "earthquakes": 13.97
     },
     "coastline": {
      "population": 15.43,
@@ -87,7 +87,7 @@
      "wheat": 21.99,
      "forest": 16.04,
      "precipitation": 20.01,
-     "earthquakes": 30.48
+     "earthquakes": 36.62
     },
     "age65": {
      "population": 0.27,
@@ -98,7 +98,7 @@
      "wheat": 6.55,
      "forest": 7.6,
      "precipitation": 10.96,
-     "earthquakes": 21.43
+     "earthquakes": 27.57
     },
     "cattle": {
      "population": 8.58,
@@ -109,7 +109,7 @@
      "wheat": 8.73,
      "forest": 13.28,
      "precipitation": 10.92,
-     "earthquakes": 13.89
+     "earthquakes": 18.71
     },
     "rice": {
      "population": 4.96,
@@ -120,7 +120,7 @@
      "wheat": 11.51,
      "forest": 8.41,
      "precipitation": 12.38,
-     "earthquakes": 22.85
+     "earthquakes": 28.99
     },
     "wheat": {
      "population": 6.56,
@@ -131,7 +131,7 @@
      "rice": 11.51,
      "forest": 14.15,
      "precipitation": 11.78,
-     "earthquakes": 21.31
+     "earthquakes": 27.45
     },
     "forest": {
      "population": 7.59,
@@ -142,7 +142,7 @@
      "rice": 8.41,
      "wheat": 14.15,
      "precipitation": 3.97,
-     "earthquakes": 14.44
+     "earthquakes": 20.58
     },
     "precipitation": {
      "population": 10.69,
@@ -153,18 +153,18 @@
      "rice": 12.38,
      "wheat": 11.78,
      "forest": 3.97,
-     "earthquakes": 10.47
+     "earthquakes": 16.61
     },
     "earthquakes": {
-     "population": 21.16,
-     "area": 18.21,
-     "coastline": 30.48,
-     "age65": 21.43,
-     "cattle": 13.89,
-     "rice": 22.85,
-     "wheat": 21.31,
-     "forest": 14.44,
-     "precipitation": 10.47
+     "population": 27.3,
+     "area": 13.97,
+     "coastline": 36.62,
+     "age65": 27.57,
+     "cattle": 18.71,
+     "rice": 28.99,
+     "wheat": 27.45,
+     "forest": 20.58,
+     "precipitation": 16.61
     }
    }
   },
@@ -337,8 +337,8 @@
     },
     "earthquakes": {
      "name": "地震次数（M≥4.5）",
-     "x_km": 283.8,
-     "y_km": 79.5
+     "x_km": 283.9,
+     "y_km": 79.0
     }
    },
    "distance": {
@@ -351,7 +351,7 @@
      "wheat": 47.74,
      "forest": 6.27,
      "precipitation": 4.24,
-     "earthquakes": 18.29
+     "earthquakes": 18.26
     },
     "area": {
      "population": 5.89,
@@ -362,7 +362,7 @@
      "wheat": 41.85,
      "forest": 1.39,
      "precipitation": 3.99,
-     "earthquakes": 12.4
+     "earthquakes": 12.37
     },
     "coastline": {
      "population": 9.81,
@@ -373,7 +373,7 @@
      "wheat": 50.44,
      "forest": 11.26,
      "precipitation": 8.66,
-     "earthquakes": 23.21
+     "earthquakes": 23.22
     },
     "age65": {
      "population": 1.65,
@@ -384,7 +384,7 @@
      "wheat": 47.88,
      "forest": 6.4,
      "precipitation": 4.37,
-     "earthquakes": 18.42
+     "earthquakes": 18.39
     },
     "cattle": {
      "population": 8.5,
@@ -395,7 +395,7 @@
      "wheat": 39.24,
      "forest": 6.95,
      "precipitation": 9.55,
-     "earthquakes": 9.79
+     "earthquakes": 9.75
     },
     "rice": {
      "population": 6.14,
@@ -406,7 +406,7 @@
      "wheat": 41.6,
      "forest": 2.38,
      "precipitation": 4.98,
-     "earthquakes": 12.15
+     "earthquakes": 12.12
     },
     "wheat": {
      "population": 47.74,
@@ -417,7 +417,7 @@
      "rice": 41.6,
      "forest": 41.47,
      "precipitation": 43.5,
-     "earthquakes": 29.45
+     "earthquakes": 29.48
     },
     "forest": {
      "population": 6.27,
@@ -428,7 +428,7 @@
      "rice": 2.38,
      "wheat": 41.47,
      "precipitation": 2.6,
-     "earthquakes": 12.02
+     "earthquakes": 11.99
     },
     "precipitation": {
      "population": 4.24,
@@ -442,14 +442,14 @@
      "earthquakes": 14.56
     },
     "earthquakes": {
-     "population": 18.29,
-     "area": 12.4,
-     "coastline": 23.21,
-     "age65": 18.42,
-     "cattle": 9.79,
-     "rice": 12.15,
-     "wheat": 29.45,
-     "forest": 12.02,
+     "population": 18.26,
+     "area": 12.37,
+     "coastline": 23.22,
+     "age65": 18.39,
+     "cattle": 9.75,
+     "rice": 12.12,
+     "wheat": 29.48,
+     "forest": 11.99,
      "precipitation": 14.56
     }
    }

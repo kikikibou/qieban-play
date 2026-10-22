@@ -1,6 +1,19 @@
 {
   "pov": "default",
   "boundary": "国界数据：Natural Earth 10m v5.1.2 · ne_10m_admin_0_map_subunits",
+  "boundary_row": {
+    "metric_name": "国界",
+    "dataset": "Natural Earth 10m v5.1.2 · ne_10m_admin_0_map_subunits",
+    "short": "Natural Earth",
+    "year": 2022,
+    "license": "Public domain",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "method": "国界和海岸线轮廓；远岛按裁剪框剔除；不画邻国和海上边界",
+    "excludes": {
+      "英国": "不含罗科尔岛",
+      "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+    }
+  },
   "datasets": [
     {
       "metric": "population",
@@ -9,6 +22,7 @@
       "year": 2020,
       "license": "CC BY 4.0",
       "url": "https://hub.worldpop.org/geodata/listing?id=75",
+      "short": "WorldPop 2020",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -23,6 +37,7 @@
       "year": 2022,
       "license": "Public domain",
       "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-details/",
+      "short": "Natural Earth",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -37,6 +52,7 @@
       "year": 2022,
       "license": "Public domain",
       "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-details/",
+      "short": "Natural Earth",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -51,6 +67,7 @@
       "year": 2020,
       "license": "CC BY 4.0",
       "url": "https://dx.doi.org/10.5258/SOTON/WP00646",
+      "short": "WorldPop 2020",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -65,6 +82,7 @@
       "year": 2015,
       "license": "CC0 1.0",
       "url": "https://doi.org/10.7910/DVN/LHBICE",
+      "short": "GLW 4",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -79,6 +97,7 @@
       "year": 2020,
       "license": "CC BY 4.0 (IFPRI Datasets Terms of Use)",
       "url": "https://doi.org/10.7910/DVN/SWPENT",
+      "short": "IFPRI SPAM 2020",
       "excludes": {
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
       },
@@ -93,6 +112,7 @@
       "year": 2020,
       "license": "CC BY 4.0 (IFPRI Datasets Terms of Use)",
       "url": "https://doi.org/10.7910/DVN/SWPENT",
+      "short": "IFPRI SPAM 2020",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -108,6 +128,7 @@
       "year": 2019,
       "license": "CC BY 4.0",
       "url": "https://doi.org/10.5281/zenodo.3939050",
+      "short": "Copernicus CGLS-LC100",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -122,6 +143,7 @@
       "year": "1981–2010",
       "license": "CC0 1.0",
       "url": "https://doi.org/10.16904/envidat.228",
+      "short": "CHELSA V2.1",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
@@ -137,6 +159,7 @@
       "year": "1970–2026",
       "license": "Public domain (USGS)",
       "url": "https://earthquake.usgs.gov/data/comcat/",
+      "short": "USGS ComCat",
       "excludes": {
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"

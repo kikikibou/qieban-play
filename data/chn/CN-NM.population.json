@@ -1,0 +1,1 @@
+{"entity":"CN-NM","metric":"population","metric_name":"人口","pov":"chn","source":{"name":"WorldPop 2020 1km (unconstrained, aggregated, UN-adjusted)","year":2020,"url":"https://hub.worldpop.org/geodata/listing?id=75","license":"CC BY 4.0"},"total":26550134,"unit":"people","n_source_cells":1851317,"n":39782,"entity_file":"CN-NM.json","points_file":"CN-NM.population.bin"}

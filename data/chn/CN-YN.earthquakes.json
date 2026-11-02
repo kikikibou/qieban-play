@@ -1,0 +1,1 @@
+{"entity":"CN-YN","metric":"earthquakes","metric_name":"地震次数（M≥4.5）","pov":"chn","source":{"name":"USGS ComCat earthquakes M ≥ 4.5 (1970 – 2026-10)","year":"1970–2026","url":"https://earthquake.usgs.gov/data/comcat/","license":"Public domain (USGS)"},"total":503,"unit":"count","n_source_points":503,"n":489,"entity_file":"CN-YN.json","points_file":"CN-YN.earthquakes.bin"}

@@ -1,0 +1,1 @@
+{"entity":"CN-HI","metric":"coastline","metric_name":"海岸线长度","pov":"chn","source":{"name":"Natural Earth 10m Admin 0 – Countries v5.1.2（中国视角版本）（按本游戏地图轮廓计算）","year":2022,"url":"https://www.naturalearthdata.com/about/disputed-boundaries-policy/","license":"Public domain"},"total":1328.5,"unit":"km","n":471,"entity_file":"CN-HI.json","points_file":"CN-HI.coastline.bin"}

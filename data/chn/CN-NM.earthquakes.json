@@ -1,0 +1,1 @@
+{"entity":"CN-NM","metric":"earthquakes","metric_name":"地震次数（M≥4.5）","pov":"chn","source":{"name":"USGS ComCat earthquakes M ≥ 4.5 (1970 – 2026-10)","year":"1970–2026","url":"https://earthquake.usgs.gov/data/comcat/","license":"Public domain (USGS)"},"total":70,"unit":"count","n_source_points":70,"n":70,"entity_file":"CN-NM.json","points_file":"CN-NM.earthquakes.bin"}

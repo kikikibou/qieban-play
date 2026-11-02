@@ -5,6 +5,9 @@
       "id": "CHN",
       "name": "中国",
       "note": "",
+      "editions": [
+        "world"
+      ],
       "metrics": {
         "population": "CHN.population.json",
         "area": "CHN.area.json",
@@ -23,6 +26,9 @@
       "id": "GBR",
       "name": "英国",
       "note": "不含罗科尔岛",
+      "editions": [
+        "world"
+      ],
       "metrics": {
         "population": "GBR.population.json",
         "area": "GBR.area.json",
@@ -48,6 +54,9 @@
       "id": "JPN",
       "name": "日本",
       "note": "不含奄美群岛、冲绳县及小笠原诸岛",
+      "editions": [
+        "world"
+      ],
       "metrics": {
         "population": "JPN.population.json",
         "area": "JPN.area.json",

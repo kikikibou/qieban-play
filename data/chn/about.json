@@ -14,6 +14,31 @@
       "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
     }
   },
+  "boundary_rows": [
+    {
+      "metric_name": "国界",
+      "dataset": "Natural Earth 10m v5.1.2 · ne_10m_admin_0_countries_chn",
+      "short": "Natural Earth",
+      "year": 2022,
+      "license": "Public domain",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "method": "国界和海岸线轮廓；远岛按裁剪框剔除；不画邻国和海上边界",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      }
+    },
+    {
+      "metric_name": "省界",
+      "dataset": "Natural Earth 10m v5.1.2 · ne_10m_admin_1_states_provinces",
+      "short": "Natural Earth",
+      "year": 2022,
+      "license": "Public domain",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+      "method": "省级行政区轮廓；按中国视角国界补齐（藏南等归西藏，金门归福建，钓鱼岛归台湾，南沙归海南）",
+      "excludes": {}
+    }
+  ],
   "datasets": [
     {
       "metric": "population",
@@ -27,6 +52,18 @@
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
       },
+      "method": "国家级计数栅格，按格求和",
+      "in_game": true
+    },
+    {
+      "metric": "population",
+      "metric_name": "人口（香港、澳门）",
+      "dataset": "WorldPop 2020 100m (unconstrained, UN-adjusted)",
+      "year": 2020,
+      "license": "CC BY 4.0",
+      "url": "https://hub.worldpop.org/geodata/listing?id=69",
+      "short": "WorldPop 2020",
+      "excludes": {},
       "method": "国家级计数栅格，按格求和",
       "in_game": true
     },
@@ -72,6 +109,18 @@
         "英国": "不含罗科尔岛",
         "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
       },
+      "method": "国家级计数栅格，按格求和",
+      "in_game": true
+    },
+    {
+      "metric": "age65",
+      "metric_name": "65 岁以上人口（香港、澳门）",
+      "dataset": "WorldPop 2020 100m Age and Sex Structures (unconstrained)",
+      "year": 2020,
+      "license": "CC BY 4.0",
+      "url": "https://dx.doi.org/10.5258/SOTON/WP00646",
+      "short": "WorldPop 2020",
+      "excludes": {},
       "method": "国家级计数栅格，按格求和",
       "in_game": true
     },

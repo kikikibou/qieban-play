@@ -1,0 +1,1 @@
+{"entity":"CN-LN","metric":"age65","metric_name":"65 岁以上人口","pov":"chn","source":{"name":"WorldPop 2020 1km Age and Sex Structures (unconstrained)","year":2020,"url":"https://dx.doi.org/10.5258/SOTON/WP00646","license":"CC BY 4.0"},"total":6222395,"unit":"people","n_source_cells":226623,"n":16828,"entity_file":"CN-LN.json","points_file":"CN-LN.age65.bin"}

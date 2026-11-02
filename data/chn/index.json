@@ -5,6 +5,10 @@
       "id": "CHN",
       "name": "中国",
       "note": "",
+      "editions": [
+        "world",
+        "china"
+      ],
       "metrics": {
         "population": "CHN.population.json",
         "area": "CHN.area.json",
@@ -20,9 +24,957 @@
       "extra": {}
     },
     {
+      "id": "CN-AH",
+      "name": "安徽",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-AH.population.json",
+        "area": "CN-AH.area.json",
+        "age65": "CN-AH.age65.json",
+        "cattle": "CN-AH.cattle.json",
+        "rice": "CN-AH.rice.json",
+        "wheat": "CN-AH.wheat.json",
+        "forest": "CN-AH.forest.json",
+        "precipitation": "CN-AH.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-AH.earthquakes.json",
+          "reason": "N = 6 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-BJ",
+      "name": "北京",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-BJ.population.json",
+        "area": "CN-BJ.area.json",
+        "age65": "CN-BJ.age65.json",
+        "cattle": "CN-BJ.cattle.json",
+        "rice": "CN-BJ.rice.json",
+        "wheat": "CN-BJ.wheat.json",
+        "forest": "CN-BJ.forest.json",
+        "precipitation": "CN-BJ.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-BJ.earthquakes.json",
+          "reason": "N = 1 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-CQ",
+      "name": "重庆",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-CQ.population.json",
+        "area": "CN-CQ.area.json",
+        "age65": "CN-CQ.age65.json",
+        "cattle": "CN-CQ.cattle.json",
+        "rice": "CN-CQ.rice.json",
+        "wheat": "CN-CQ.wheat.json",
+        "forest": "CN-CQ.forest.json",
+        "precipitation": "CN-CQ.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-CQ.earthquakes.json",
+          "reason": "N = 15 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-FJ",
+      "name": "福建",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-FJ.population.json",
+        "area": "CN-FJ.area.json",
+        "coastline": "CN-FJ.coastline.json",
+        "age65": "CN-FJ.age65.json",
+        "cattle": "CN-FJ.cattle.json",
+        "rice": "CN-FJ.rice.json",
+        "wheat": "CN-FJ.wheat.json",
+        "forest": "CN-FJ.forest.json",
+        "precipitation": "CN-FJ.precipitation.json"
+      },
+      "extra": {
+        "earthquakes": {
+          "file": "CN-FJ.earthquakes.json",
+          "reason": "N = 8 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-GD",
+      "name": "广东",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-GD.population.json",
+        "area": "CN-GD.area.json",
+        "coastline": "CN-GD.coastline.json",
+        "age65": "CN-GD.age65.json",
+        "cattle": "CN-GD.cattle.json",
+        "rice": "CN-GD.rice.json",
+        "wheat": "CN-GD.wheat.json",
+        "forest": "CN-GD.forest.json",
+        "precipitation": "CN-GD.precipitation.json"
+      },
+      "extra": {
+        "earthquakes": {
+          "file": "CN-GD.earthquakes.json",
+          "reason": "N = 8 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-GS",
+      "name": "甘肃",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-GS.population.json",
+        "area": "CN-GS.area.json",
+        "age65": "CN-GS.age65.json",
+        "cattle": "CN-GS.cattle.json",
+        "rice": "CN-GS.rice.json",
+        "wheat": "CN-GS.wheat.json",
+        "forest": "CN-GS.forest.json",
+        "precipitation": "CN-GS.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-GS.earthquakes.json",
+          "reason": "N = 161 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-GX",
+      "name": "广西",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-GX.population.json",
+        "area": "CN-GX.area.json",
+        "coastline": "CN-GX.coastline.json",
+        "age65": "CN-GX.age65.json",
+        "cattle": "CN-GX.cattle.json",
+        "rice": "CN-GX.rice.json",
+        "wheat": "CN-GX.wheat.json",
+        "forest": "CN-GX.forest.json",
+        "precipitation": "CN-GX.precipitation.json"
+      },
+      "extra": {
+        "earthquakes": {
+          "file": "CN-GX.earthquakes.json",
+          "reason": "N = 17 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-GZ",
+      "name": "贵州",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-GZ.population.json",
+        "area": "CN-GZ.area.json",
+        "age65": "CN-GZ.age65.json",
+        "cattle": "CN-GZ.cattle.json",
+        "rice": "CN-GZ.rice.json",
+        "wheat": "CN-GZ.wheat.json",
+        "forest": "CN-GZ.forest.json",
+        "precipitation": "CN-GZ.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-GZ.earthquakes.json",
+          "reason": "N = 27 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-HA",
+      "name": "河南",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-HA.population.json",
+        "area": "CN-HA.area.json",
+        "age65": "CN-HA.age65.json",
+        "cattle": "CN-HA.cattle.json",
+        "rice": "CN-HA.rice.json",
+        "wheat": "CN-HA.wheat.json",
+        "forest": "CN-HA.forest.json",
+        "precipitation": "CN-HA.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-HA.earthquakes.json",
+          "reason": "N = 4 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-HB",
+      "name": "湖北",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-HB.population.json",
+        "area": "CN-HB.area.json",
+        "age65": "CN-HB.age65.json",
+        "cattle": "CN-HB.cattle.json",
+        "rice": "CN-HB.rice.json",
+        "wheat": "CN-HB.wheat.json",
+        "forest": "CN-HB.forest.json",
+        "precipitation": "CN-HB.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-HB.earthquakes.json",
+          "reason": "N = 15 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-HE",
+      "name": "河北",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-HE.population.json",
+        "area": "CN-HE.area.json",
+        "age65": "CN-HE.age65.json",
+        "cattle": "CN-HE.cattle.json",
+        "rice": "CN-HE.rice.json",
+        "wheat": "CN-HE.wheat.json",
+        "forest": "CN-HE.forest.json",
+        "precipitation": "CN-HE.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": "CN-HE.coastline.json",
+          "reason": "N = 148 < 200"
+        },
+        "earthquakes": {
+          "file": "CN-HE.earthquakes.json",
+          "reason": "N = 90 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-HI",
+      "name": "海南",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-HI.population.json",
+        "area": "CN-HI.area.json",
+        "coastline": "CN-HI.coastline.json",
+        "age65": "CN-HI.age65.json",
+        "cattle": "CN-HI.cattle.json",
+        "rice": "CN-HI.rice.json",
+        "forest": "CN-HI.forest.json",
+        "precipitation": "CN-HI.precipitation.json"
+      },
+      "extra": {
+        "wheat": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-HI.earthquakes.json",
+          "reason": "N = 3 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-HK",
+      "name": "香港",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-HK.population.json",
+        "area": "CN-HK.area.json",
+        "coastline": "CN-HK.coastline.json",
+        "age65": "CN-HK.age65.json",
+        "forest": "CN-HK.forest.json",
+        "precipitation": "CN-HK.precipitation.json"
+      },
+      "extra": {
+        "cattle": {
+          "file": "CN-HK.cattle.json",
+          "reason": "源像元 13 < 200"
+        },
+        "rice": {
+          "file": "CN-HK.rice.json",
+          "reason": "N = 153 < 200"
+        },
+        "wheat": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": null,
+          "reason": "总量为 0"
+        }
+      }
+    },
+    {
+      "id": "CN-HL",
+      "name": "黑龙江",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-HL.population.json",
+        "area": "CN-HL.area.json",
+        "age65": "CN-HL.age65.json",
+        "cattle": "CN-HL.cattle.json",
+        "rice": "CN-HL.rice.json",
+        "wheat": "CN-HL.wheat.json",
+        "forest": "CN-HL.forest.json",
+        "precipitation": "CN-HL.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-HL.earthquakes.json",
+          "reason": "N = 19 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-HN",
+      "name": "湖南",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-HN.population.json",
+        "area": "CN-HN.area.json",
+        "age65": "CN-HN.age65.json",
+        "cattle": "CN-HN.cattle.json",
+        "rice": "CN-HN.rice.json",
+        "wheat": "CN-HN.wheat.json",
+        "forest": "CN-HN.forest.json",
+        "precipitation": "CN-HN.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-HN.earthquakes.json",
+          "reason": "N = 1 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-JL",
+      "name": "吉林",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-JL.population.json",
+        "area": "CN-JL.area.json",
+        "age65": "CN-JL.age65.json",
+        "cattle": "CN-JL.cattle.json",
+        "rice": "CN-JL.rice.json",
+        "wheat": "CN-JL.wheat.json",
+        "forest": "CN-JL.forest.json",
+        "precipitation": "CN-JL.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-JL.earthquakes.json",
+          "reason": "N = 27 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-JS",
+      "name": "江苏",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-JS.population.json",
+        "area": "CN-JS.area.json",
+        "coastline": "CN-JS.coastline.json",
+        "age65": "CN-JS.age65.json",
+        "cattle": "CN-JS.cattle.json",
+        "rice": "CN-JS.rice.json",
+        "wheat": "CN-JS.wheat.json",
+        "forest": "CN-JS.forest.json",
+        "precipitation": "CN-JS.precipitation.json"
+      },
+      "extra": {
+        "earthquakes": {
+          "file": "CN-JS.earthquakes.json",
+          "reason": "N = 20 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-JX",
+      "name": "江西",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-JX.population.json",
+        "area": "CN-JX.area.json",
+        "age65": "CN-JX.age65.json",
+        "cattle": "CN-JX.cattle.json",
+        "rice": "CN-JX.rice.json",
+        "wheat": "CN-JX.wheat.json",
+        "forest": "CN-JX.forest.json",
+        "precipitation": "CN-JX.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-JX.earthquakes.json",
+          "reason": "N = 6 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-LN",
+      "name": "辽宁",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-LN.population.json",
+        "area": "CN-LN.area.json",
+        "coastline": "CN-LN.coastline.json",
+        "age65": "CN-LN.age65.json",
+        "cattle": "CN-LN.cattle.json",
+        "rice": "CN-LN.rice.json",
+        "wheat": "CN-LN.wheat.json",
+        "forest": "CN-LN.forest.json",
+        "precipitation": "CN-LN.precipitation.json"
+      },
+      "extra": {
+        "earthquakes": {
+          "file": "CN-LN.earthquakes.json",
+          "reason": "N = 43 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-MO",
+      "name": "澳门",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-MO.population.json",
+        "area": "CN-MO.area.json",
+        "age65": "CN-MO.age65.json",
+        "forest": "CN-MO.forest.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": "CN-MO.coastline.json",
+          "reason": "N = 134 < 200"
+        },
+        "cattle": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "rice": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "wheat": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "precipitation": {
+          "file": "CN-MO.precipitation.json",
+          "reason": "源像元 37 < 200"
+        },
+        "earthquakes": {
+          "file": null,
+          "reason": "总量为 0"
+        }
+      }
+    },
+    {
+      "id": "CN-NM",
+      "name": "内蒙古",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-NM.population.json",
+        "area": "CN-NM.area.json",
+        "age65": "CN-NM.age65.json",
+        "cattle": "CN-NM.cattle.json",
+        "rice": "CN-NM.rice.json",
+        "wheat": "CN-NM.wheat.json",
+        "forest": "CN-NM.forest.json",
+        "precipitation": "CN-NM.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-NM.earthquakes.json",
+          "reason": "N = 70 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-NX",
+      "name": "宁夏",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-NX.population.json",
+        "area": "CN-NX.area.json",
+        "age65": "CN-NX.age65.json",
+        "cattle": "CN-NX.cattle.json",
+        "rice": "CN-NX.rice.json",
+        "wheat": "CN-NX.wheat.json",
+        "forest": "CN-NX.forest.json",
+        "precipitation": "CN-NX.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-NX.earthquakes.json",
+          "reason": "N = 26 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-QH",
+      "name": "青海",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-QH.population.json",
+        "area": "CN-QH.area.json",
+        "age65": "CN-QH.age65.json",
+        "cattle": "CN-QH.cattle.json",
+        "wheat": "CN-QH.wheat.json",
+        "forest": "CN-QH.forest.json",
+        "precipitation": "CN-QH.precipitation.json",
+        "earthquakes": "CN-QH.earthquakes.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "rice": {
+          "file": null,
+          "reason": "总量为 0"
+        }
+      }
+    },
+    {
+      "id": "CN-SC",
+      "name": "四川",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-SC.population.json",
+        "area": "CN-SC.area.json",
+        "age65": "CN-SC.age65.json",
+        "cattle": "CN-SC.cattle.json",
+        "rice": "CN-SC.rice.json",
+        "wheat": "CN-SC.wheat.json",
+        "forest": "CN-SC.forest.json",
+        "precipitation": "CN-SC.precipitation.json",
+        "earthquakes": "CN-SC.earthquakes.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        }
+      }
+    },
+    {
+      "id": "CN-SD",
+      "name": "山东",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-SD.population.json",
+        "area": "CN-SD.area.json",
+        "coastline": "CN-SD.coastline.json",
+        "age65": "CN-SD.age65.json",
+        "cattle": "CN-SD.cattle.json",
+        "rice": "CN-SD.rice.json",
+        "wheat": "CN-SD.wheat.json",
+        "forest": "CN-SD.forest.json",
+        "precipitation": "CN-SD.precipitation.json"
+      },
+      "extra": {
+        "earthquakes": {
+          "file": "CN-SD.earthquakes.json",
+          "reason": "N = 17 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-SH",
+      "name": "上海",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-SH.population.json",
+        "area": "CN-SH.area.json",
+        "coastline": "CN-SH.coastline.json",
+        "age65": "CN-SH.age65.json",
+        "forest": "CN-SH.forest.json",
+        "precipitation": "CN-SH.precipitation.json"
+      },
+      "extra": {
+        "cattle": {
+          "file": "CN-SH.cattle.json",
+          "reason": "源像元 91 < 200"
+        },
+        "rice": {
+          "file": "CN-SH.rice.json",
+          "reason": "源像元 91 < 200"
+        },
+        "wheat": {
+          "file": "CN-SH.wheat.json",
+          "reason": "源像元 91 < 200"
+        },
+        "earthquakes": {
+          "file": "CN-SH.earthquakes.json",
+          "reason": "N = 1 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-SN",
+      "name": "陕西",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-SN.population.json",
+        "area": "CN-SN.area.json",
+        "age65": "CN-SN.age65.json",
+        "cattle": "CN-SN.cattle.json",
+        "rice": "CN-SN.rice.json",
+        "wheat": "CN-SN.wheat.json",
+        "forest": "CN-SN.forest.json",
+        "precipitation": "CN-SN.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-SN.earthquakes.json",
+          "reason": "N = 8 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-SX",
+      "name": "山西",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-SX.population.json",
+        "area": "CN-SX.area.json",
+        "age65": "CN-SX.age65.json",
+        "cattle": "CN-SX.cattle.json",
+        "rice": "CN-SX.rice.json",
+        "wheat": "CN-SX.wheat.json",
+        "forest": "CN-SX.forest.json",
+        "precipitation": "CN-SX.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        },
+        "earthquakes": {
+          "file": "CN-SX.earthquakes.json",
+          "reason": "N = 31 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-TJ",
+      "name": "天津",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-TJ.population.json",
+        "area": "CN-TJ.area.json",
+        "age65": "CN-TJ.age65.json",
+        "forest": "CN-TJ.forest.json",
+        "precipitation": "CN-TJ.precipitation.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": "CN-TJ.coastline.json",
+          "reason": "N = 109 < 200"
+        },
+        "cattle": {
+          "file": "CN-TJ.cattle.json",
+          "reason": "源像元 172 < 200"
+        },
+        "rice": {
+          "file": "CN-TJ.rice.json",
+          "reason": "源像元 172 < 200"
+        },
+        "wheat": {
+          "file": "CN-TJ.wheat.json",
+          "reason": "源像元 172 < 200"
+        },
+        "earthquakes": {
+          "file": "CN-TJ.earthquakes.json",
+          "reason": "N = 18 < 200"
+        }
+      }
+    },
+    {
+      "id": "CN-TW",
+      "name": "台湾",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-TW.population.json",
+        "area": "CN-TW.area.json",
+        "coastline": "CN-TW.coastline.json",
+        "age65": "CN-TW.age65.json",
+        "cattle": "CN-TW.cattle.json",
+        "rice": "CN-TW.rice.json",
+        "wheat": "CN-TW.wheat.json",
+        "forest": "CN-TW.forest.json",
+        "precipitation": "CN-TW.precipitation.json",
+        "earthquakes": "CN-TW.earthquakes.json"
+      },
+      "extra": {}
+    },
+    {
+      "id": "CN-XJ",
+      "name": "新疆",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-XJ.population.json",
+        "area": "CN-XJ.area.json",
+        "age65": "CN-XJ.age65.json",
+        "cattle": "CN-XJ.cattle.json",
+        "rice": "CN-XJ.rice.json",
+        "wheat": "CN-XJ.wheat.json",
+        "forest": "CN-XJ.forest.json",
+        "precipitation": "CN-XJ.precipitation.json",
+        "earthquakes": "CN-XJ.earthquakes.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        }
+      }
+    },
+    {
+      "id": "CN-XZ",
+      "name": "西藏",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-XZ.population.json",
+        "area": "CN-XZ.area.json",
+        "age65": "CN-XZ.age65.json",
+        "cattle": "CN-XZ.cattle.json",
+        "rice": "CN-XZ.rice.json",
+        "wheat": "CN-XZ.wheat.json",
+        "forest": "CN-XZ.forest.json",
+        "precipitation": "CN-XZ.precipitation.json",
+        "earthquakes": "CN-XZ.earthquakes.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        }
+      }
+    },
+    {
+      "id": "CN-YN",
+      "name": "云南",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-YN.population.json",
+        "area": "CN-YN.area.json",
+        "age65": "CN-YN.age65.json",
+        "cattle": "CN-YN.cattle.json",
+        "rice": "CN-YN.rice.json",
+        "wheat": "CN-YN.wheat.json",
+        "forest": "CN-YN.forest.json",
+        "precipitation": "CN-YN.precipitation.json",
+        "earthquakes": "CN-YN.earthquakes.json"
+      },
+      "extra": {
+        "coastline": {
+          "file": null,
+          "reason": "总量为 0"
+        }
+      }
+    },
+    {
+      "id": "CN-ZJ",
+      "name": "浙江",
+      "note": "",
+      "editions": [
+        "china"
+      ],
+      "metrics": {
+        "population": "CN-ZJ.population.json",
+        "area": "CN-ZJ.area.json",
+        "coastline": "CN-ZJ.coastline.json",
+        "age65": "CN-ZJ.age65.json",
+        "cattle": "CN-ZJ.cattle.json",
+        "rice": "CN-ZJ.rice.json",
+        "wheat": "CN-ZJ.wheat.json",
+        "forest": "CN-ZJ.forest.json",
+        "precipitation": "CN-ZJ.precipitation.json"
+      },
+      "extra": {
+        "earthquakes": {
+          "file": "CN-ZJ.earthquakes.json",
+          "reason": "N = 1 < 200"
+        }
+      }
+    },
+    {
       "id": "GBR",
       "name": "英国",
       "note": "不含罗科尔岛",
+      "editions": [
+        "world"
+      ],
       "metrics": {
         "population": "GBR.population.json",
         "area": "GBR.area.json",
@@ -48,6 +1000,9 @@
       "id": "JPN",
       "name": "日本",
       "note": "不含奄美群岛、冲绳县及小笠原诸岛",
+      "editions": [
+        "world"
+      ],
       "metrics": {
         "population": "JPN.population.json",
         "area": "JPN.area.json",

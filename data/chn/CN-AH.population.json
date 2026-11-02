@@ -1,0 +1,1 @@
+{"entity":"CN-AH","metric":"population","metric_name":"人口","pov":"chn","source":{"name":"WorldPop 2020 1km (unconstrained, aggregated, UN-adjusted)","year":2020,"url":"https://hub.worldpop.org/geodata/listing?id=75","license":"CC BY 4.0"},"total":59567723,"unit":"people","n_source_cells":191725,"n":16013,"entity_file":"CN-AH.json","points_file":"CN-AH.population.bin"}

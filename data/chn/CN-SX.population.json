@@ -1,0 +1,1 @@
+{"entity":"CN-SX","metric":"population","metric_name":"人口","pov":"chn","source":{"name":"WorldPop 2020 1km (unconstrained, aggregated, UN-adjusted)","year":2020,"url":"https://hub.worldpop.org/geodata/listing?id=75","license":"CC BY 4.0"},"total":39288759,"unit":"people","n_source_cells":228850,"n":17754,"entity_file":"CN-SX.json","points_file":"CN-SX.population.bin"}

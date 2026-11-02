@@ -1,0 +1,1 @@
+{"entity":"CN-HN","metric":"cattle","metric_name":"牛","pov":"chn","source":{"name":"FAO Gridded Livestock of the World 4 (GLW 4) – Cattle, 5′, dasymetric","year":2015,"url":"https://doi.org/10.7910/DVN/LHBICE","license":"CC0 1.0"},"total":2333325,"unit":"head","n_source_cells":2771,"n":23749,"entity_file":"CN-HN.json","points_file":"CN-HN.cattle.bin"}

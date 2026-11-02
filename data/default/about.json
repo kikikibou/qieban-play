@@ -14,6 +14,21 @@
       "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
     }
   },
+  "boundary_rows": [
+    {
+      "metric_name": "国界",
+      "dataset": "Natural Earth 10m v5.1.2 · ne_10m_admin_0_map_subunits",
+      "short": "Natural Earth",
+      "year": 2022,
+      "license": "Public domain",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "method": "国界和海岸线轮廓；远岛按裁剪框剔除；不画邻国和海上边界",
+      "excludes": {
+        "英国": "不含罗科尔岛",
+        "日本": "不含奄美群岛、冲绳县及小笠原诸岛"
+      }
+    }
+  ],
   "datasets": [
     {
       "metric": "population",

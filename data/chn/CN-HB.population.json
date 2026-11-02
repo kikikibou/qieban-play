@@ -1,0 +1,1 @@
+{"entity":"CN-HB","metric":"population","metric_name":"人口","pov":"chn","source":{"name":"WorldPop 2020 1km (unconstrained, aggregated, UN-adjusted)","year":2020,"url":"https://hub.worldpop.org/geodata/listing?id=75","license":"CC BY 4.0"},"total":55232418,"unit":"people","n_source_cells":251540,"n":21195,"entity_file":"CN-HB.json","points_file":"CN-HB.population.bin"}

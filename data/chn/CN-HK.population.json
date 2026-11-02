@@ -1,0 +1,1 @@
+{"entity":"CN-HK","metric":"population","metric_name":"人口","pov":"chn","source":{"name":"WorldPop 2020 100m (unconstrained, UN-adjusted)","year":2020,"url":"https://hub.worldpop.org/geodata/listing?id=69","license":"CC BY 4.0"},"total":7492756,"unit":"people","n_source_cells":130222,"n":26092,"entity_file":"CN-HK.json","points_file":"CN-HK.population.bin"}

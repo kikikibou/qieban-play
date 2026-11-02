@@ -1,0 +1,1 @@
+{"entity":"CN-SD","metric":"precipitation","metric_name":"降水总量","pov":"chn","source":{"name":"CHELSA V2.1 bio12 – Annual precipitation (1981–2010 climatology)","year":"1981–2010","url":"https://doi.org/10.16904/envidat.228","license":"CC0 1.0"},"total":105.77,"unit":"km3","n_source_cells":224959,"n":17884,"entity_file":"CN-SD.json","points_file":"CN-SD.precipitation.bin"}

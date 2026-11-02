@@ -1,0 +1,1 @@
+{"entity":"CN-MO","metric":"population","metric_name":"人口","pov":"chn","source":{"name":"WorldPop 2020 100m (unconstrained, UN-adjusted)","year":2020,"url":"https://hub.worldpop.org/geodata/listing?id=69","license":"CC BY 4.0"},"total":648815,"unit":"people","n_source_cells":3773,"n":2321,"entity_file":"CN-MO.json","points_file":"CN-MO.population.bin"}

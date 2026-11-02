@@ -1,0 +1,1 @@
+{"entity":"CN-MO","metric":"age65","metric_name":"65 岁以上人口","pov":"chn","source":{"name":"WorldPop 2020 100m Age and Sex Structures (unconstrained)","year":2020,"url":"https://dx.doi.org/10.5258/SOTON/WP00646","license":"CC BY 4.0"},"total":79588,"unit":"people","n_source_cells":3773,"n":1993,"entity_file":"CN-MO.json","points_file":"CN-MO.age65.bin"}

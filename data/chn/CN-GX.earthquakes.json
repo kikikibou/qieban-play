@@ -1,0 +1,1 @@
+{"entity":"CN-GX","metric":"earthquakes","metric_name":"地震次数（M≥4.5）","pov":"chn","source":{"name":"USGS ComCat earthquakes M ≥ 4.5 (1970 – 2026-10)","year":"1970–2026","url":"https://earthquake.usgs.gov/data/comcat/","license":"Public domain (USGS)"},"total":17,"unit":"count","n_source_points":17,"n":17,"entity_file":"CN-GX.json","points_file":"CN-GX.earthquakes.bin"}

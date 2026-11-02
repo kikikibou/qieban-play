@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="robots" content="noindex, nofollow" />
     <title>切半</title>
-    <script type="module" crossorigin src="./assets/index-D9-iCjhR.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BvGljHBT.css">
+    <script type="module" crossorigin src="./assets/index-CEdMbZkv.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DeQe97lX.css">
   </head>
   <body>
     <!-- 固定尺寸的画板（桌面 1280×720 / 手机 375×812），整体等比缩放进窗口；位置和尺寸由 theme.ts 设定（D041） -->
@@ -14,9 +14,12 @@
       <div id="board">
         <div id="graticule"></div>
         <header id="header">
+          <div id="lives" hidden></div>
           <button id="about-button" type="button"></button>
           <div id="counter"></div>
         </header>
+        <!-- 点 logo 回开始页（D048）：logo 画在 ui 画布上，这里是透明按钮 -->
+        <button id="home-button" type="button"></button>
         <div id="progress"></div>
         <div id="mode-chip"><span class="icon"></span><span class="label"></span></div>
         <div id="plate"></div>
@@ -25,12 +28,15 @@
         <div id="hint"><span class="icon"></span><span class="text"><span class="main"></span><span class="sub"></span></span></div>
         <div id="deviation"></div>
         <div id="answer"></div>
+        <div id="stamp" hidden></div>
         <div id="map-card"><canvas id="map"></canvas></div>
         <div id="source"></div>
         <button id="action" type="button" disabled></button>
         <canvas id="ui"></canvas>
         <!-- 总分页、数据说明页：画板内整页，内容由 main.ts 按 theme.ts 生成（D044） -->
         <div id="summary" hidden></div>
+        <!-- 开始页（D048）：选普通局 / 闯关 -->
+        <div id="home" hidden></div>
         <div id="about" hidden></div>
         <!-- 口令页（D046）：只在部署构建里出现 -->
         <div id="gate" hidden></div>
